@@ -3,5 +3,4 @@ test:
         - echo hello world!
         - aws --version
         - cat vpc.yml
-        - pwd=`pwd`
-        - aws cloudformation validate-template --template-body file:////${pwd}/vpc.yml
+        - aws cloudformation validate-template --template-body file:////`pwd`/vpc.yml
