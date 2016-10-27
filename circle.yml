@@ -7,4 +7,4 @@ deployment:
   prod:
     branch: master
     commands:
-      - aws cloudformation update-stack --stack-name myteststack --template-body file:////${pwd}/vpc.yml
+      - aws cloudformation update-stack --stack-name myteststack --template-body file:////`pwd`/vpc.yml
