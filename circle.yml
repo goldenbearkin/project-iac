@@ -2,3 +2,4 @@ test:
     override:
         - echo hello world!
         - aws --version
+        - cat vpc.yml
