@@ -1,4 +1,7 @@
 #!/bin/bash
+
+aws configure set region ap-northeast-1
+
 for f in `find . -type f -name '*.yaml'`
 do
     aws cloudformation validate-template --template-body file:////`pwd`//$f
