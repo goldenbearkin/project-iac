@@ -1,4 +1,4 @@
 test:
     override:
       - aws --version
-      - ./test.sh
+      - ./test.sh 
